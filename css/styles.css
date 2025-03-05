@@ -21,6 +21,7 @@ div.container{
  
 header{
     background-color: rgb(220, 220, 220);
+    padding: 10px 2% 80px 2%; /*Recuo à direita e à esquerda em %*/
 }
 
 .logo-1{
@@ -32,3 +33,14 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.logo-2{
+    float: right; /* Posiciona a direita*/
+    width: 160px;
+    height: 60px;
+    background-image: url('../src/images/logo2.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

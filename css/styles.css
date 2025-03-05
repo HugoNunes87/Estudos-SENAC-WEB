@@ -46,3 +46,19 @@ header{
     background-repeat: no-repeat;
 }
 
+section.cover-form{
+    width: 100%;
+}
+
+.bg{
+    position: relative;
+    height: 560px;
+    background-image: url(../src/images/bg-form.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* .form-container {
+    position: absolute;
+    right: ;
+} */
